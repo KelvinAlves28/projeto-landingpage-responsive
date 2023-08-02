@@ -37,7 +37,7 @@ html, body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 0 20px 0 15px;
+    margin: 0 20px 0 20px;
     height: 70px;
 }
 
@@ -47,7 +47,6 @@ header > img{
 }
 header > i{
     padding: 5px;
-    margin: 0 20px 0 15px;
     background-color: white;
     border: 1px solid #FF572B;
     color: #FF572B;
@@ -94,13 +93,19 @@ menu > ul > li >a:hover{
 }
 
 #article1{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 15px;
     width: 70vw;
     margin: auto;
 }
 
 #article1 > h1{
-    max-width: 300px;
+    width: 70vw;
+    min-width: 295px;
+    max-width: 400px;
     font-family: "proxima nova extrabold";
     font-size: 25px;
     color: #151926;
@@ -112,7 +117,9 @@ menu > ul > li >a:hover{
 }
 
 #article1 > p{
-    max-width: 300px;
+    width: 70vw;
+    min-width: 295px;
+    max-width: 400px;
     text-align: left;
 }
 #article1 > p > strong > span{
@@ -120,6 +127,7 @@ menu > ul > li >a:hover{
 }
 
 #article1 > button{
+    margin-top: 20px;
     font-family: "proxima nova bold";
     width: 179px;
     height: 48px;
@@ -129,19 +137,19 @@ menu > ul > li >a:hover{
     border-radius: 10px;
 }
 
-#divarticle2{
+#section2{
     margin-top: 40px;
     background-color: #FF572B;
 }
 
-#divarticle2 > img{
+#section2 > img{
     display: block;
     margin: auto;
     padding: 20px;
     width: 100px;
 }
 
-#divarticle2 > #article2{
+#section2 > #article2{
     max-width: 600px;
     margin: auto;
 }

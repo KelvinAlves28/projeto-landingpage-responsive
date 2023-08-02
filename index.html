@@ -11,7 +11,7 @@
 
 </head>
 <body onresize="mudouTamanho()">
-    <div id="divcabecalho">
+    <section id="divcabecalho">
         <header id="cabecalho">
             <img id="imgcabecalho" src="imagens/logo blueshift.png" alt="">
             <i id="burger" class="material-symbols-outlined" onclick="clickmenu()">menu</i>
@@ -26,21 +26,47 @@
                 <li><a href="#">A Blueshift</a></li>
             </ul>
         </menu>
-    </div>
-    <article id="article1">
-        <h1>Venha fazer seus projetos com o melhor parceiro do ano de <span>Data&AI</span> da <span>Databricks</span></h1>
-        <p>Pelo terceiro ano consecutivo, a <strong>BlueShift Brasil</strong> foi selecionada como a vencedora da categoria <strong><span>LATAM Partner of the Year 2023</span></strong>, que foi anunciado no Databricks Partner Summit e Data + AI Summit em São Francisco – EUA.</p>
-        <p>Essa premiação reforça o engajamento da parceria para a entrega de soluções robustas para nossos clientes em toda a América Latina, utilizando as tecnologias escaláveis da Databricks e o vasto know-how, expertise técnica e comprometimento da BlueShift Brasil para atender clientes de diferentes portes e segmentos.</p>
-        <button type="button">ENTRE EM CONTATO</button>
-    </article>
-    <div id="divarticle2">
+    </section>
+    <section>
+        <article id="article1">
+            <h1>Venha fazer seus projetos com o melhor parceiro do ano de <span>Data&AI</span> da <span>Databricks</span></h1>
+            <p>Pelo terceiro ano consecutivo, a <strong>BlueShift Brasil</strong> foi selecionada como a vencedora da categoria <strong><span>LATAM Partner of the Year 2023</span></strong>, que foi anunciado no Databricks Partner Summit e Data + AI Summit em São Francisco – EUA.</p>
+            <p>Essa premiação reforça o engajamento da parceria para a entrega de soluções robustas para nossos clientes em toda a América Latina, utilizando as tecnologias escaláveis da Databricks e o vasto know-how, expertise técnica e comprometimento da BlueShift Brasil para atender clientes de diferentes portes e segmentos.</p>
+            <button type="button">ENTRE EM CONTATO</button>
+        </article>
+    </section>
+    <section id="section2">
         <img src="imagens/Databricks-logo-iconwhite.png" alt="">
         <article id="article2">
             <h2>Conheça o Databricks</h2>
             <p><strong>Databricks</strong> é uma plataforma de análise e de processamento escalável baseada no Apache Spark - um dos mais populares e poderosos frameworks de processamento de big data e análise de dados, que possibilita fluxos de trabalho simplificados e um workspace interativo. Isso permite a colaboração entre os cientistas de dados, os engenheiros de dados e os analistas de negócios, tudo isso integrado com a cloud para fornecer instalação rápida e segura.</p>
             <p>A tecnologia possibilita escrever em qualquer linguagem, como R, Python, Scala e SQL.</p>
         </article>
-    </div>
+    </section>
+    <section id="section3">
+        <h2>Diferenciais</h2>
+        <article id="article3-1">
+            <img src="imagens/Group.png" alt="">
+            <h3>1.Análise exploratória</h3>
+            <p>
+                O <span>Databricks</span> permite que os analistas de dados possam explorar grandes conjuntos de dados, aplicando análises e visualizações com bibliotecas já instaladas, combinando, por exemplo, SQL e Python para explorar dados.
+            </p>
+        </article>
+        <article id="article3-2">
+            <img src="imagens/Group-1.png" alt="">
+            <h3>2. Machine learning</h3>
+            <p>
+                O <span>Databricks</span> oferece suporte para construção de modelos de machine learning em grande escala, de forma colaborativa entre equipes, permitindo cuidar de todo ciclo do ML, desde o treinamento até a implantação do produto final.
+            </p>
+        </article>
+        <article id="article3-3">
+            <img src="imagens/Group-2.png" alt="">
+            <h3>3. Processamento de dados <span>em lote ou em tempo real</span></h3>
+            <p>
+                Você pode processar os dados, e montar todo ciclo de ETL, fazendo análises e processamento de fluxos de dados de forma contínua (Streaming) ou em lote.
+            </p>
+        </article>
+    </section>
     <script>
         function clickmenu(){
             if(menu.style.display == "block"){
