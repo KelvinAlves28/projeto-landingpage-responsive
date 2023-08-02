@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Databricks</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/tablet.css">
+    <link rel="stylesheet" href="estilos/telasgrandes.css">
+
+</head>
+<body onresize="mudouTamanho()">
+    <div id="divcabecalho">
+        <header id="cabecalho">
+            <img id="imgcabecalho" src="imagens/logo blueshift.png" alt="">
+            <i id="burger" class="material-symbols-outlined" onclick="clickmenu()">menu</i>
+        </header>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Conheça</a></li>
+                <li><a href="#">Diferenciais</a></li>
+                <li><a href="#">Soluções</a></li>
+                <li><a href="#">Nosso time</a></li>
+                <li><a href="#">A Blueshift</a></li>
+            </ul>
+        </menu>
+    </div>
+    <article id="article1">
+        <h1>Venha fazer seus projetos com o melhor parceiro do ano de <span>Data&AI</span> da <span>Databricks</span></h1>
+        <p>Pelo terceiro ano consecutivo, a <strong>BlueShift Brasil</strong> foi selecionada como a vencedora da categoria <strong><span>LATAM Partner of the Year 2023</span></strong>, que foi anunciado no Databricks Partner Summit e Data + AI Summit em São Francisco – EUA.</p>
+        <p>Essa premiação reforça o engajamento da parceria para a entrega de soluções robustas para nossos clientes em toda a América Latina, utilizando as tecnologias escaláveis da Databricks e o vasto know-how, expertise técnica e comprometimento da BlueShift Brasil para atender clientes de diferentes portes e segmentos.</p>
+        <button type="button">ENTRE EM CONTATO</button>
+    </article>
+    <div id="divarticle2">
+        <img src="imagens/Databricks-logo-iconwhite.png" alt="">
+        <article id="article2">
+            <h2>Conheça o Databricks</h2>
+            <p><strong>Databricks</strong> é uma plataforma de análise e de processamento escalável baseada no Apache Spark - um dos mais populares e poderosos frameworks de processamento de big data e análise de dados, que possibilita fluxos de trabalho simplificados e um workspace interativo. Isso permite a colaboração entre os cientistas de dados, os engenheiros de dados e os analistas de negócios, tudo isso integrado com a cloud para fornecer instalação rápida e segura.</p>
+            <p>A tecnologia possibilita escrever em qualquer linguagem, como R, Python, Scala e SQL.</p>
+        </article>
+    </div>
+    <script>
+        function clickmenu(){
+            if(menu.style.display == "block"){
+                menu.style.display = "none"
+            }else{
+                menu.style.display = "block"
+            }
+        }
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                menu.style.display = "block"
+            }else{
+                menu.style.display = "none"
+            }
+        }
+    </script>
+</body>
+</html>
