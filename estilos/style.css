@@ -138,34 +138,117 @@ menu > ul > li >a:hover{
 }
 
 #section2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 15px;
     margin-top: 40px;
     background-color: #FF572B;
 }
 
 #section2 > img{
     display: block;
-    margin: auto;
-    padding: 20px;
     width: 100px;
 }
 
-#section2 > #article2{
-    max-width: 600px;
+#article2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 15px;
+    width: 70vw;
+    min-width: 295px;
+    max-width: 400px;
     margin: auto;
 }
 
 #article2 > h2{
+    width: 70vw;
+    min-width: 295px;
+    max-width: 400px;
     text-align: center;
-    padding: 0px 40px 20px 40px;
     font-family: "proxima nova extrabold";
-    font-size: 30px;
+    font-size: 25px;
     color: #FBFAF9;
 }
 
 #article2 > p{
-    margin: auto;
-    padding: 0px 40px 20px 40px;
     font-family: "proxima nova";
     text-align: left;
     color: #FBFAF9;
+}
+
+#section3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 25px;
+}
+
+#section3 > h2{
+    font-size: 25px;
+    font-family: "proxima nova extrabold";
+}
+
+#section3 h3{
+    font-size: 0.9em;
+}
+#section3 p{
+    font-size: .7em;
+}
+
+#section3 img{
+    width: 100px;
+}
+#article3-2 > div > p{
+    text-align: right;
+}
+#article3-2 > div > h3{
+    text-align: right;
+}
+#section3 div > p > span{
+    color: #FF572B;
+}
+#section3 div > h3 > span.num{
+    color: #FF572B;
+}
+
+#article3-1{
+    width: 70vw;
+    min-width: 295px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+#article3-2{
+    display: flex;
+    width: 70vw;
+    min-width: 295px;
+    max-width: 400px;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+#article3-3{
+    display: flex;
+    width: 70vw;
+    min-width: 295px;
+    max-width: 400px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
 }
