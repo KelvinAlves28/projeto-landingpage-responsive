@@ -290,8 +290,9 @@ menu > ul > li >a:hover{
 
 div#quadrado{
     position: absolute;
+    left: -245px;
     height: 342px;
-    width: 12%;
+    width: 230px;
     background-color: #FF572B;
     border-radius: 0 5px 5px 0;
 }
