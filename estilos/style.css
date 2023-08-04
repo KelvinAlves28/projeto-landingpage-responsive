@@ -28,9 +28,33 @@
 
 html, body{
     background-color: #FBFAF9;
-    width: 100vw;
-    height: 100vh;
 }
+
+body{
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    
+}
+
+::-webkit-scrollbar-track{
+    background: #FBFAF9;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #FF572B;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #DC200D;
+}
+
+
+
 
 #cabecalho{
     display: flex;
@@ -98,8 +122,8 @@ menu > ul > li >a:hover{
 
 #divcabecalho{
     height: 300px;
-    background: transparent url(../imagens/img2.png) no-repeat bottom center;
-    background-size: 130vw;
+    background: transparent url(../imagens/img2.png) no-repeat bottom left;
+    background-size: 140vw;
 }
 
 #article1{
@@ -361,3 +385,214 @@ div#quadrado{
     background-color: #FF572B;
     border-radius:5px;
 }
+
+#section6{
+    width: 295px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+#section6 > h2{
+    font-family: "proxima nova extrabold";
+    margin-bottom: 20px;
+}
+#section6 > h2 > span{
+    font-family: "proxima nova extrabold";
+    color: #FF572B;
+}
+
+p.nhexagono{
+    max-width: 200px;
+    color: #79869F;
+}
+
+p.hexagono{
+    position: relative;
+    width: 50px;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 2;
+    text-align: center;
+    background-color: #FF572B;
+    color: #FBFAF9;
+}
+
+p.hexagono:before{
+    content: "";
+    position: absolute;
+    top: -15px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 15px solid #FF572B;
+}
+
+p.hexagono:after{
+    content: "";
+    position: absolute;
+    bottom: -15px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 15px solid #FF572B;
+}
+
+#article6-1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 50px;
+}
+
+div.valores{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.articletime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.articletime > img{
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.articletime > p{
+    color: #79869F;
+}
+
+div#ondas{
+    margin-top: 60px;
+    margin-bottom: -4px;
+}
+
+div#ondas > img{
+    width: 100vw;
+}
+
+#section7{
+    background-color: #151926;
+    color: #FBFAF9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: -2px;
+}
+
+#section7 > article{
+    width: 290px;
+}
+
+#section7 img{
+    width: 200px;
+}
+
+#section7 > h2{
+    margin-top: 50px;
+}
+
+#section7 > h2 > span{
+    color: #FF572B;
+}
+
+#section7 > #article7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+#section7 > #article7 > p{
+    text-align: center;
+}
+
+#section7 > #article7 > p > strong{
+    color: #FF572B;
+}
+
+#articleform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#articleform > p > strong > span{
+    color: #FF572B;
+}
+
+#articleform > form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+#articleform > form > label{
+    margin-top: 5px;
+}
+#articleform > form > input.campo{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+}
+#articleform > form > textarea{
+    width: 240px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+#articleform > form > input#botaosub{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: auto;
+    margin-top: 15px;
+    color: #FBFAF9;
+    background-color: #FF572B;
+    border: none;
+    font-family: "proxima nova bold";
+}
+
+#articleform > img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer{
+    width: 100vw;
+    background-color: #151926;
+    color: #FBFAF9;
+}
+footer > p{
+    font-size: 12px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+

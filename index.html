@@ -19,11 +19,11 @@
         <menu id="menu">
             <ul>
                 <li><a id="menup" href="#">Início</a></li>
-                <li><a href="#">Conheça</a></li>
-                <li><a href="#">Diferenciais</a></li>
-                <li><a href="#">Soluções</a></li>
-                <li><a href="#">Nosso time</a></li>
-                <li><a id="menuu" href="#">A Blueshift</a></li>
+                <li><a href="#section2">Conheça</a></li>
+                <li><a href="#section3">Diferenciais</a></li>
+                <li><a href="#section4">Soluções</a></li>
+                <li><a href="#section6">Nosso time</a></li>
+                <li><a id="menuu" href="#section7">A Blueshift</a></li>
             </ul>
         </menu>
     </section>
@@ -102,27 +102,73 @@
             </p>
         </article>
     </section>
-    <section>
+    <section id="section6">
         <h2>Conheça o <span>nosso time</span></h2>
-        <article>
-            <p>+100</p>
-            <p>projetos de dados executados</p>
-            <p>+10</p>
-            <p>anos de mercado</p>
-            <p>+700</p>
-            <p>colaboradores certificados e capacitados</p>
+        <article id="article6-1">
+            <div class="valores">
+                <p class="hexagono">+100</p>
+                <p class="nhexagono">projetos de dados executados</p>
+            </div>
+            <div class="valores">
+                <p class="hexagono">+10</p>
+                <p class="nhexagono">anos de mercado</p>
+            </div>
+            <div class="valores">
+                <p class="hexagono">+700</p>
+                <p class="nhexagono">colaboradores certificados e capacitados</p>
+            </div>
         </article>
-        <article>
+        <article class="articletime">
             <img src="imagens/Grupo 11.png" alt="">
             <p><strong>Alan Camillo</strong></p>
             <p>CTO (Chief Technology Officer)</p>
         </article>
-        <article>
+        <article class="articletime">
             <img src="imagens/Grupo 12.png" alt="">
             <p><strong>Rafael Erlacher</strong></p>
             <p>Head de Data&AI</p>
         </article>
     </section>
+    <div id="ondas">
+        <img src="imagens/Shape 1 copy.png" alt="">
+    </div>
+    <section id="section7">
+        <h2>Sobre a <span>Blueshift</span></h2>
+        <article id="article7">
+            <p>
+                A <strong>BlueShift</strong> é uma empresa especializada em serviços e soluções de Big Data & Analytics, AI, Machine Learning, IoT e RPA e seu diferencial reúne sólida experiência, conhecimento atualizado e capacidade de entrega para suportar a estratégia de transformação digital de seus parceiros de negócios.
+            </p>
+            <p>
+                Desde sua fundação em 2012, o propósito da <strong>BlueShift</strong> é oferecer as melhores e mais inovadoras soluções, colocando a tecnologia da Ciência de Dados no centro das estratégias para impulsionar os resultados e a produtividade através da melhoria do desempenho de nossos clientes de diversos portes e setores. 
+            </p>
+        </article>
+        <article id="articleform">
+            <p>
+                <strong>Entre em contato agora para conhecer como podemos impulsionar a <span>jornada de dados</span> da sua empresa:</strong>
+            </p>
+            <form action="contato.php" method="post">
+                <label for="idnome">Nome</label>
+                <input class="campo" type="text" name="nome" id="idnome" placeholder="Digite seu nome">
+                <label for="idemail">E-mail</label>
+                <input class="campo" type="email" name="email" id="idemail" placeholder="Digite seu e-mail">
+                <label for="idtelefone">telefone</label>
+                <input class="campo" type="tel" name="telefone" id="idtelefone" placeholder="Digite seu telefone">
+                <label for="idempresa">Empresa</label>
+                <input class="campo" type="text" name="empresa" id="idempresa" placeholder="Digite sua empresa">
+                <label for="idcargo">Cargo</label>
+                <input class="campo" type="text" name="cargo" id="idcargo" placeholder="Digite seu cargo">
+                <label for="idmensagem">Mensagem</label>
+                <textarea name="mensagem" id="idmensagem" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                <input id="botaosub" type="submit" value="ENVIAR MENSAGEM">
+            </form>
+            <img src="imagens/Logos Blue-04.png" alt="">
+        </article>
+    </section>
+    <footer>
+        <p>
+            Copyright © BlueSift 2023. Todos os direitos reservados.
+        </p>
+    </footer>
     <script>
         function clickmenu(){
             if(menu.style.display == "block"){
