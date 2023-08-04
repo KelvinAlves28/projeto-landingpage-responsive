@@ -157,13 +157,18 @@ menu > ul > li >a:hover{
 #article1 > button{
     margin: auto;
     margin-top: 20px;
-    font-family: "proxima nova bold";
+
     width: 179px;
     height: 48px;
-    color: #FBFAF9;
     background-color: #FF572B;
     border: none;
     border-radius: 10px;
+}
+
+#article1 > button > a{
+    color: #FBFAF9;
+    font-family: "proxima nova bold";
+    text-decoration: none;
 }
 
 #section2{
