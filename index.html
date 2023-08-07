@@ -15,6 +15,14 @@
         <header id="cabecalho">
             <img id="imgcabecalho" src="imagens/logo blueshift.png" alt="">
             <i id="burger" class="material-symbols-outlined" onclick="clickmenu()">menu</i>
+            <nav id="navbar">
+                <a href="#">Início</a>
+                <a href="#">Conheça</a>
+                <a href="#">Diferenciais</a>
+                <a href="#">Soluções</a>
+                <a href="#">Nosso time</a>
+                <a href="#">A Blueshift</a>
+            </nav>
         </header>
         <menu id="menu">
             <ul>
@@ -26,8 +34,9 @@
                 <li><a id="menuu" href="#section7">A Blueshift</a></li>
             </ul>
         </menu>
+        
     </section>
-    <section>
+    <section id="section1">
         <article id="article1">
             <h1>Venha fazer seus projetos com o melhor parceiro do ano de <span>Data&AI</span> da <span>Databricks</span></h1>
             <p>Pelo terceiro ano consecutivo, a <strong>BlueShift Brasil</strong> foi selecionada como a vencedora da categoria <strong><span>LATAM Partner of the Year 2023</span></strong>, que foi anunciado no Databricks Partner Summit e Data + AI Summit em São Francisco – EUA.</p>
@@ -77,6 +86,12 @@
         
         <article id="article4">
             <div id="quadrado"></div>
+            <div id="quadrados">
+                <img id="img1" src="imagens/imagensdiv/Grupo de máscara 3.png" alt="">
+                <img id="img2" src="imagens/imagensdiv/Grupo 2.png" alt="">
+                <img id="img3" src="imagens/imagensdiv/Grupo de máscara 6.png" alt="">
+                <img id="img4" src="imagens/imagensdiv/Grupo 5.png" alt="">
+            </div>
             <h2>A solução <span>ideal</span> para sua empresa</h2>
             <p>
                 O <strong><span>Databricks</span></strong> oferece escalabilidade e velocidade para equipes de análise de dados e cientistas de dados, graças à sua base no Apache Spark, conhecido por sua capacidade de escalabilidade horizontal e processamento distribuído em memória. Além disso, o <strong><span>Databricks</span></strong> oferece flexibilidade de linguagens de programação, integração com outras ferramentas de análise de dados, recursos avançados de colaboração em equipe e uma interface intuitiva e fácil de usar, com bibliotecas pré-instaladas para acelerar o desenvolvimento de projetos e permitir o uso de funcionalidades avançadas sem a necessidade de escrever código do zero.
@@ -179,8 +194,10 @@
         }
         function mudouTamanho(){
             if(window.innerWidth >= 768){
-                menu.style.display = "block"
+                burger.style.display = "none"
+                menu.style.display = "none"
             }else{
+                burger.style.display = "inline-block"
                 menu.style.display = "none"
             }
         }

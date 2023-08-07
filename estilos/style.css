@@ -53,8 +53,9 @@ body{
     background: #DC200D;
 }
 
-
-
+#navbar{
+    display: none;
+}
 
 #cabecalho{
     display: flex;
@@ -70,6 +71,7 @@ header > img{
     height: 40px;
 }
 header > i{
+    display: none;
     padding: 5px;
     background-color: white;
     border: 1px solid #FF572B;
@@ -319,11 +321,15 @@ menu > ul > li >a:hover{
 
 div#quadrado{
     position: absolute;
-    left: -310px;
+    left: -240px;
     height: 342px;
-    width: 300px;
+    width: 230px;
     background-color: #FF572B;
     border-radius: 0 5px 5px 0;
+}
+
+div#quadrados{
+    display: none;
 }
 
 #section5{
