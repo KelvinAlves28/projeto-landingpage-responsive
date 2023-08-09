@@ -239,6 +239,10 @@ menu > ul > li >a:hover{
 #section3 img{
     width: 100px;
 }
+
+#section3 p{
+    color: #79869F;
+}
 #article3-2 > div > p{
     text-align: right;
 }
