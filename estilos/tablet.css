@@ -394,16 +394,53 @@
         gap: 5px;
     }
     
-    #articleform > form > div > input.campo{
+    #articleform > form > div > input#idnome{
+        width: 535px;
+        height: 40px;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: none;
+    }
+    
+    #articleform > form > div > input#idemail{
         width: 250px;
         height: 40px;
         border-radius: 5px;
         padding-left: 10px;
+        padding-right: 10px;
+        border: none;
+    }
+    
+    #articleform > form > div > input#idtelefone{
+        width: 250px;
+        height: 40px;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: none;
+    }
+    
+    #articleform > form > div > input#idempresa{
+        width: 250px;
+        height: 40px;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: none;
+    }
+    
+    #articleform > form > div > input#idcargo{
+        width: 250px;
+        height: 40px;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
         border: none;
     }
 
     #articleform > form > div > textarea{
-        width: 515px;
+        width: 535px;
         border-radius: 5px;
         padding: 10px;
         border: none;
