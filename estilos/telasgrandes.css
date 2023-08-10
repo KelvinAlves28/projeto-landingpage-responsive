@@ -517,6 +517,7 @@
         flex-wrap: wrap;
         gap: 50px 50px;
         margin-bottom: -2px;
+        padding-bottom: 60px;
     }
 
     #section7 > article{
