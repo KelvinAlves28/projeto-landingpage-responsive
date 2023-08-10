@@ -5,8 +5,8 @@
 Pequenas telas: até 600px
 Celular: 600px até 768px
 Tablet: 768 até 992px
-Notebook: 992px até 1200px
-Grandes telas: acima de 1200px
+Notebook: 992px até 1280px
+Grandes telas: acima de 1280px
 */
 
 @font-face {
@@ -392,6 +392,14 @@ div#quadrados{
     row-gap: 20px;
 }
 
+#article5-1 > p{
+    text-align: left;
+}
+
+#article5-2 > p{
+    text-align: left;
+}
+
 #article5-1 > p > strong{
     color: #FF572B;
 }
@@ -440,7 +448,7 @@ div#quadrados{
 }
 
 p.nhexagono{
-    max-width: 200px;
+    width: 200px;
     color: #79869F;
 }
 
@@ -647,9 +655,9 @@ div#ondas > img{
     font-family: "proxima nova bold";
 }
 
-#articleform > img{
+#section7 > img{
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 footer{
