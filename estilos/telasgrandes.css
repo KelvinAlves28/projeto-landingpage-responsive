@@ -590,6 +590,10 @@
         gap: 5px;
     }
     
+    #articleform > form > div > input{
+        outline-color: #FF572B;
+    }
+
     #articleform > form > div > input#idnome{
         width: 535px;
         height: 40px;
@@ -640,6 +644,7 @@
         border-radius: 5px;
         padding: 10px;
         border: none;
+        outline-color: #FF572B;
     }
 
     div#campo1 input{
