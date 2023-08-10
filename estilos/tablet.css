@@ -20,13 +20,19 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        gap: 20px;
+        gap: 25px;
     }
 
     #navbar > a{
         text-decoration: none;
         color: #151926;
         font-family: "proxima nova bold";
+        font-size: 13px;
+    }
+
+    #navbar > a:hover{
+        color: #FF572B;
+        transition: ease .3s;
     }
 
     header > img{
