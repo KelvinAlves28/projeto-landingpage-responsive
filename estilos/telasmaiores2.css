@@ -299,8 +299,8 @@
     div#quadrado{
         position: absolute;
         height: 100%;
-        width: 640px;
-        left: 945px;
+        width: 668px;
+        left: 918px;
         background-color: #FF572B;
         border-radius: 0;
     }
@@ -312,7 +312,7 @@
         position: absolute;
         height: 425px;
         width: 650px;
-        left: 620px;
+        left: 594px;
         top: 50%;
         transform: translateY(-50%);
         border-radius: 0;
