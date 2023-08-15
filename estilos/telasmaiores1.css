@@ -290,8 +290,8 @@
     div#quadrado{
         position: absolute;
         height: 100%;
-        width: 450px;
-        left: 636px;
+        width: 640px;
+        left: 710px;
         background-color: #FF572B;
         border-radius: 0;
     }
@@ -301,22 +301,21 @@
         flex-wrap: wrap;
         gap: 20px;
         position: absolute;
-        height: 220px;
-        width: 340px;
-        left: 467px;
+        height: 300px;
+        width: 460px;
+        left: 480px;
         top: 50%;
         transform: translateY(-50%);
         border-radius: 0;
     }
 
     div#quadrados > img{
-        width: 100px;
+        width: 140px;
     }
 
     div#quadrados > div{
-        width: 100px;
-        height: 100px;
-        background-color: #0A043C;
+        width: 140px;
+        height: 140px;
         border-radius: 5px;
     }
     div#quadrados > #img1{
