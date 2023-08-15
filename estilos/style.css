@@ -312,7 +312,7 @@ menu > ul > li >a:hover{
     row-gap: 20px;
 }
 #article4 > h2{
-    max-width: 273px;
+    width: 273px;
     font-size: 25px;
     font-family: "proxima nova extrabold";
     color: #FBFAF9;

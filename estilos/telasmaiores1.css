@@ -177,6 +177,7 @@
     #section3 h3{
         font-size: 25px;
         font-family: "proxima nova bold";
+        line-height: 20px;
     }
     #section3 p{
         font-size: 15px;
@@ -239,6 +240,10 @@
         flex-direction: column;
         gap: 10px;
 
+    }
+
+    #article3-3 > div > h3 > span#resto{
+        font-size: 18px;
     }
 
 
