@@ -356,16 +356,17 @@
 
 
     #section5{
-        width: 990px;
+        width: 1242px;
         margin-top: 100px;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         flex-wrap: nowrap;
         gap: 50px;
+        padding-bottom: 0;
     }
     #section5 > #imagens{
-        width: 380px;
+        width: 644px;
         margin: 0;
         display: flex;
         flex-direction: column;
@@ -373,25 +374,26 @@
     }
 
     #section5 > div > #imggrupo{
-        width: 380px;
+        width: 644px;
         position: relative;
     }
     
     #section5 > div > #imgcertificado{
-        margin-top: 5px;
-        width: 290px;
+        margin-top: 18px;
+        width: 486px;
         border: none;
         position: relative;
     }
 
     #article5-1{
         width: auto;
-        padding-top: 0px;
+        padding-top: 5px;
         padding-left: 0px;
         width: auto;
         position: relative;
         color: #79869F;
-        line-height: 25px;
+        font-size: 20px;
+        line-height: 36px;
         text-align: left;
     }
     
@@ -406,26 +408,27 @@
         justify-content: space-between;
         row-gap: 20px;
         color: #79869F;
-        line-height: 25px;
+        font-size: 20px;
+        line-height: 36px;
         text-align: left;
     }
 
     #quadrado1{
         position: absolute;
-        margin-top: -37px;
-        margin-left: 278px;
-        height: 120px;
-        width: 120px;
+        margin-top: -54px;
+        margin-left: 472px;
+        height: 200px;
+        width: 200px;
         background-color: #BDCDDB;
         border-radius:5px;
     }
     
     #quadrado2{
         position: absolute;
-        margin-top: 208px;
-        margin-left: -35px;
-        height: 120px;
-        width: 120px;
+        margin-top: 334px;
+        margin-left: -58px;
+        height: 200px;
+        width: 200px;
         background-color: #FF572B;
         border-radius:5px;
     }
@@ -436,41 +439,76 @@
 
 
     #section6{
-        width: 990px;
-        padding-top: 30px;
+        width: 1242px;
+        padding-top: 150px;
         display: flex;
         flex-direction: row;
         align-items: center;
         margin: 0 auto;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-wrap: wrap;
         gap: 25px;
     }
     
     #section6 > h2{
         width: 100%;
-        font-size: 30px;
+        font-size: 50px;
         text-align: center;
         font-family: "proxima nova extrabold";
-        margin-bottom: 30px;
+        margin-bottom: 100px;
     }
     #section6 > h2 > span{
         font-family: "proxima nova extrabold";
         color: #FF572B;
     }
     
+    p.hexagono{
+        position: relative;
+        width: 75px;
+        height: 41px;
+        vertical-align: middle;
+        line-height: 1.8;
+        text-align: center;
+        background-color: #FF572B;
+        color: #FBFAF9;
+    }
+    
+    p.hexagono:before{
+        content: "";
+        position: absolute;
+        top: -20px; 
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 37.5px solid transparent;
+        border-right: 37.5px solid transparent;
+        border-bottom: 20px solid #FF572B;
+    }
+    
+    p.hexagono:after{
+        content: "";
+        position: absolute;
+        bottom: -20px; 
+        left: 0;
+        width: 0;
+        height: 0;
+        border-left: 37.5px solid transparent;
+        border-right: 37.5px solid transparent;
+        border-top: 20px solid #FF572B;
+    }
+
     p.nhexagono{
-        width: 270px;
+        width: 319px;
         text-align: left;
         color: #79869F;
     }
     
     #article6-1{
-        width: 270px;
+        width: 409px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 50px;
+        gap: 84px;
     }
     
     div.valores{
@@ -479,6 +517,10 @@
         flex-direction: row;
         align-items: center;
         gap: 20px;
+    }
+
+    .valores > p{
+        font-size: 24px;
     }
     
     .articletime{
@@ -489,13 +531,14 @@
         margin: 0;
     }
     .articletime > img{
-        width: 200px;
+        width: 300px;
         margin-bottom: 15px;
     }
     
     .articletime > p{
         color: #79869F;
-        line-height: 18px;
+        line-height: 24px;
+        font-size: 25px;
     }
 
     #divtime{
@@ -506,7 +549,7 @@
     }
 
     div#ondas{
-        margin-top: 100px;
+        margin-top: 250px;
         margin-bottom: -6px;
     }
 
@@ -524,7 +567,7 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 60px 70px;
+        gap: 80px 68px;
         margin-bottom: -2px;
         padding-bottom: 60px;
     }
@@ -534,13 +577,13 @@
     }
     
     #section7 img{
-        width: 440px;
+        width: 429px;
     }
     
     #section7 > h2{
         width: 100%;
         text-align: center;
-        font-size: 35px;
+        font-size: 50px;
         margin-top: 50px;
         order: 1;
     }
@@ -550,7 +593,8 @@
     }
     
     #section7 > #article7{
-        width: 550px;
+        width: 745px;
+        font-size: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -559,7 +603,7 @@
         order: 2;
     }
     
-    #section7 > article > p{
+    #section7 > #article7 > p{
         text-align: left;
     }
     
@@ -568,7 +612,7 @@
     }
     
     #articleform{
-        width: 800px;
+        width: 720px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -578,7 +622,10 @@
     }
     
     #articleform > p{
-        width: 400px;
+        width: 572px;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
     }
 
     #articleform > p > strong > span{
@@ -605,8 +652,8 @@
     }
 
     #articleform > form > div > input#idnome{
-        width: 535px;
-        height: 40px;
+        width: 720px;
+        height: 48px;
         border-radius: 5px;
         padding-left: 10px;
         padding-right: 10px;
@@ -614,8 +661,8 @@
     }
     
     #articleform > form > div > input#idemail{
-        width: 250px;
-        height: 40px;
+        width: 342.5px;
+        height: 48px;
         border-radius: 5px;
         padding-left: 10px;
         padding-right: 10px;
@@ -623,8 +670,8 @@
     }
     
     #articleform > form > div > input#idtelefone{
-        width: 250px;
-        height: 40px;
+        width: 342.5px;
+        height: 48px;
         border-radius: 5px;
         padding-left: 10px;
         padding-right: 10px;
@@ -632,8 +679,8 @@
     }
     
     #articleform > form > div > input#idempresa{
-        width: 250px;
-        height: 40px;
+        width: 342.5px;
+        height: 48px;
         border-radius: 5px;
         padding-left: 10px;
         padding-right: 10px;
@@ -641,8 +688,8 @@
     }
     
     #articleform > form > div > input#idcargo{
-        width: 250px;
-        height: 40px;
+        width: 342.5px;
+        height: 48px;
         border-radius: 5px;
         padding-left: 10px;
         padding-right: 10px;
@@ -650,20 +697,17 @@
     }
 
     #articleform > form > div > textarea{
-        width: 535px;
+        width: 720px;
+        height: 181px;
         border-radius: 5px;
         padding: 10px;
         border: none;
         outline-color: #FF572B;
     }
-
-    div#campo1 input{
-        width: 515px;
-    }
     
     #articleform > form > input#botaosub{
-        width: 300px;
-        height: 40px;
+        width: 344px;
+        height: 48px;
         border-radius: 5px;
         padding-left: 10px;
         margin: auto;
